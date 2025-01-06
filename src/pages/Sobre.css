@@ -1,0 +1,52 @@
+.sobre-container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sobre-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sobre-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sobre-container li {
+  margin-bottom: 10px;
+}
+
+.sobre-container strong {
+  font-weight: bold;
+}
+
+.sobre-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .sobre-container {
+    margin: 120px auto; /* Aumenta o margin-top para telas menores */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-container {
+    margin: 100px 10px; /* Ajusta o margin-top e reduz o padding */
+    padding: 5px;
+  }
+}

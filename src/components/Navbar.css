@@ -1,0 +1,195 @@
+
+.navbar {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 60px; /* Altura fixa para a Navbar */
+    position: fixed; /* Fixa a Navbar no topo da tela */
+    top: 0; /* Alinha a Navbar no topo */
+    left: 0; /* Alinha a Navbar à esquerda */
+    z-index: 1000; /* Garante que a Navbar fique acima de outros elementos */
+  }
+  
+  .logo-container {
+    margin-right: 1rem;
+  }
+  
+  .logo {
+    height: 40px; /* Ajuste o tamanho da logo conforme necessário */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza os itens da lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    color: #61dafb;
+  }
+  /* src/components/Navbar.css */
+@media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+  /* src/components/Navbar.css */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo-container {
+      margin-bottom: 1rem;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+ 
+
+  .social-media-links {
+   
+    position: fixed;
+    top: 25px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .social-media-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-media-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    gap: 5px;
+  }
+  
+  .social-media-links a:hover {
+    color: #61dafb;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .social-media-links {
+      top: 5px;
+      right: 5px;
+    }
+    .social-media-logo {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .social-media-links {
+      top: 2px;
+      right: 2px;
+    }
+    .social-media-logo {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .pixel-vendido {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .caixa {
+    background-color: #ffffff00;
+    padding: 10px;
+    border: 1px solid #ddaa04de;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caixa span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .caixa span:last-child {
+    color: #666;
+  }
+
+  /* src/components/Navbar.css */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto; /* Altura automática para telas menores */
+    padding: 0.5rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  .social-media-links {
+    position: static; /* Remove a posição fixa em telas menores */
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.25rem;
+  }
+
+  .nav-link {
+    font-size: 1rem; /* Reduza o tamanho da fonte em telas muito pequenas */
+  }
+
+  .social-media-logo {
+    width: 20px; /* Reduza o tamanho dos ícones */
+    height: 20px;
+  }
+}
+
+
+
+

@@ -1,0 +1,216 @@
+/* src/pages/Comprar.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 0.2rem; /* Ajustei o padding-top para 0.2rem */
+    padding: 0 2rem; /* Mantive o padding lateral */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ler-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  .ler {
+    width: 100px;
+    height: 100px;
+  }
+.pagamento-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 2rem; /* Espaço entre as colunas */
+}
+
+.instrucao-pagamento {
+    width: 60%;
+    text-align: left;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.instrucao-pagamento h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.instrucao-pagamento p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.imagens-pagamento {
+    width: 40%; /* Ajuste para a imagem do QR Code */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    width: 600px; /* Aumentei a largura da imagem do QR Code */
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    margin-top: -10px; /* Ajuste o valor conforme necessário para subir a imagem */
+    text-decoration: none;
+    color: #25D366; /* Cor do WhatsApp */
+    font-weight: bold;
+}
+
+.whatsapp {
+    width: 200px;
+    
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.whatsapp:hover {
+    transform: scale(1.1); /* Efeito de hover */
+    transition: transform 0.2s;
+}
+
+/* Responsivo */
+@media (max-width: 1200px) {
+
+   
+    .container {
+        padding: 1rem;
+    }
+
+    .pagamento-container {
+        flex-direction: column; /* Coloca os elementos em coluna em telas menores */
+    }
+
+    .instrucao-pagamento {
+        width: 100%; /* Ocupa toda a largura */
+        margin-bottom: 1rem;
+    }
+
+    .imagens-pagamento {
+        width: 100%; /* Ocupa toda a largura */
+    }
+
+    .qr {
+        width: 150px; /* Tamanho reduzido em telas menores */
+        height: 150px;
+    }
+
+    .whatsapp {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+  .ler-container{
+    margin-top: 150px;
+  }
+    .instrucao-pagamento h2 {
+        font-size: 1.5rem; /* Tamanho reduzido do título */
+    }
+
+    .instrucao-pagamento p {
+        font-size: 0.9rem; /* Tamanho reduzido do texto */
+    }
+
+    .qr {
+        width: 100px; /* Tamanho ainda menor */
+        height: 100px;
+    }
+
+    .whatsapp {
+        width: 30px;
+        height: 30px;
+    }
+}
+.copiar-chave {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copiar-chave:hover {
+    background-color: #3e8e41;
+  }
+
+
+
+  /* src/pages/Comprar.css */
+@media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .pagamento-container {
+      flex-direction: column; /* Coloca os elementos em coluna em telas menores */
+    }
+  
+    .instrucao-pagamento {
+      width: 100%; /* Ocupa toda a largura */
+      margin-bottom: 1rem;
+    }
+  
+    .imagens-pagamento {
+      width: 100%; /* Ocupa toda a largura */
+    }
+  
+    .qr {
+      width: 150px; /* Tamanho reduzido em telas menores */
+      height: 150px;
+    }
+  
+    .whatsapp {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instrucao-pagamento h2 {
+      
+      font-size: 1.5rem; /* Tamanho reduzido do título */
+    }
+  
+    .instrucao-pagamento p {
+      
+      font-size: 0.9rem; /* Tamanho reduzido do texto */
+    }
+  
+    .qr {
+      
+      width: 100px; /* Tamanho ainda menor */
+      height: 100px;
+    }
+  
+    .whatsapp {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+  .comprar-container {
+    margin-top: 10px;
+    margin-top: 60px; /* Ajuste conforme a altura da Navbar */
+  }
+}
