@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.686ebb6b.css",
+    "main.js": "/static/js/main.3623e931.js",
+    "static/js/488.bf58fa34.chunk.js": "/static/js/488.bf58fa34.chunk.js",
+    "static/media/moeda.png": "/static/media/moeda.53e78f34a1b5d5f78b10.png",
+    "static/media/qr.jpg": "/static/media/qr.b405484a3e96b0cf5cb4.jpg",
+    "static/media/wpp.svg": "/static/media/wpp.99982bb07c06f1513b7223b5007fa1a7.svg",
+    "index.html": "/index.html",
+    "main.686ebb6b.css.map": "/static/css/main.686ebb6b.css.map",
+    "main.3623e931.js.map": "/static/js/main.3623e931.js.map",
+    "488.bf58fa34.chunk.js.map": "/static/js/488.bf58fa34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.686ebb6b.css",
+    "static/js/main.3623e931.js"
+  ]
+}
