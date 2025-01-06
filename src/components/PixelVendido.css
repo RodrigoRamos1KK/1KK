@@ -3,7 +3,7 @@
   justify-content: flex-start; /* Alinha o conteúdo à esquerda */
   align-items: center; /* Centraliza verticalmente */
   padding: 8px; /* Espaçamento interno reduzido */
-  background-color: #f0f0f0; /* Cor de fundo */
+ 
   border-radius: 6px; /* Bordas arredondadas */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
   width: fit-content; /* Ajusta o tamanho ao conteúdo */
@@ -20,7 +20,7 @@
 
 .caixa span {
   font-size: 12px; /* Tamanho da fonte reduzido */
-  color: #c90000; /* Cor do texto */
+  color: #ffffff; /* Cor do texto */
   white-space: nowrap; /* Evita quebra de linha */
 }
 
