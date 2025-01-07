@@ -65,6 +65,7 @@ body {
 }
 
 .image-container {
+  margin-top: 15%;
   position: relative; /* Permite que o PixelGrid seja posicionado sobre a imagem */
   display: flex;
   justify-content: center;
@@ -84,7 +85,9 @@ body {
   .App {
     padding-top: 50px; /* Ajuste o padding para telas menores */
   }
-
+  .image-container {
+    margin-top: 25%;
+  }
   .center-image {
     max-width: 90%; /* Reduza o tamanho da imagem em telas menores */
   }
@@ -94,7 +97,9 @@ body {
   .App {
     padding-top: 40px; /* Ajuste adicional para telas muito pequenas */
   }
-
+  .image-container {
+    margin-top: 28%;
+  }
   .center-image {
     max-width: 80%; /* Reduza ainda mais o tamanho da imagem */
   }
