@@ -63,7 +63,7 @@ const Comprar = () => {
           </div>
         </div>
         <a
-          href="https://wa.me/+5522988472248"
+          href="https://wa.me/+5521978410766"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-link"
