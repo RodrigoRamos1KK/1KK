@@ -1,5 +1,6 @@
-
 /* src/App.css */
+
+/* Animação waterfall */
 @keyframes waterfall {
   0% {
     transform: translateY(-100%); /* Começa acima da tela */
@@ -9,7 +10,7 @@
   }
 }
 
-
+/* Estilos globais */
 body {
   background-color: rgba(75, 75, 75, 0.212);
   margin: 0; /* Remove margens padrão do body */
@@ -20,22 +21,26 @@ body {
   min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
 }
 
+/* Estilos do App */
 .App {
   text-align: center;
   width: 100%; /* Ocupa toda a largura da tela */
 }
 
+/* Estilos do logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animação do logo (se a preferência por redução de movimento estiver desativada) */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Estilos do header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -47,10 +52,12 @@ body {
   color: white;
 }
 
+/* Estilos do link */
 .App-link {
   color: #61dafb;
 }
 
+/* Animação de rotação do logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -59,34 +66,30 @@ body {
     transform: rotate(360deg);
   }
 }
-/* src/App.css */
-.App {
-  text-align: center;
-}
 
+/* Container da imagem */
 .image-container {
-  margin-top: 15%;
   position: relative; /* Permite que o PixelGrid seja posicionado sobre a imagem */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px; /* 10px abaixo do Navbar */
 }
 
+/* Estilos da imagem central */
 .center-image {
-  
   max-width: 100%;
   height: auto;
-
   display: block; /* Remove espaços extras abaixo da imagem */
-  height: auto; /* Altura original da imagem */
 }
-/* src/App.css */
+
+/* Ajustes para telas menores */
 @media (max-width: 768px) {
   .App {
     padding-top: 50px; /* Ajuste o padding para telas menores */
   }
   .image-container {
-    margin-top: 25%;
+    margin-top: 200px; /* Mantém 10px abaixo do Navbar */
   }
   .center-image {
     max-width: 90%; /* Reduza o tamanho da imagem em telas menores */
@@ -98,10 +101,9 @@ body {
     padding-top: 40px; /* Ajuste adicional para telas muito pequenas */
   }
   .image-container {
-    margin-top: 28%;
+    margin-top: 150px; /* Mantém 10px abaixo do Navbar */
   }
   .center-image {
     max-width: 80%; /* Reduza ainda mais o tamanho da imagem */
   }
 }
-
