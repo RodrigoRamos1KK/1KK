@@ -41,7 +41,7 @@ const Sobre = () => {
         Transforme cada pixel em uma oportunidade!
       </p>
       <a
-          href="https://wa.me/+5522988472248"
+           href="https://wa.me/+5521978410766"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-link"
