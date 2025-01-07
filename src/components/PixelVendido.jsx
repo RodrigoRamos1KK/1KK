@@ -3,7 +3,7 @@ import './PixelVendido.css'; // Importando o arquivo de estilos
 
 const PixelVendido = () => {
   // Exemplo de valores para o componente (substitua pelos valores reais)
-  const pixelsVendidos = 0;
+  const pixelsVendidos = 2;
   const totalPixels = 1000000;
 
   return (
